@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Conference ticket generator</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Form starts -->
+
+    <div id="mainDiv">
+      <img style="position: absolute" src="./assets/images/pattern-lines.svg" />
+      <img
+        style="position: absolute; left: 3.8vw; top: -4.6vw"
+        src="./assets/images/pattern-circle.svg"
+      />
+      <img
+        style="position: absolute; right: 0"
+        src="./assets/images/pattern-squiggly-line-top.svg"
+      />
+      <img
+        style="position: absolute; bottom: 0; left: 0"
+        src="./assets/images/pattern-squiggly-line-bottom.svg"
+      />
+      <img class="logo-full" src="./assets/images/logo-full.svg" />
+      <div id="textDiv">
+        <h2>Your Journey to Coding Conf 2025 Starts Here!</h2>
+        <p>Secure your spot at next year's biggest coding conference.</p>
+      </div>
+      <div id="form">
+        <form>
+          <label for="file">Upload Avatar</label>
+          <input type="file" name="file" accept=".jpg,.png,.jpeg" style="opacity: 0;" />
+          <img src="./assets/images/icon-upload.svg"/>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Deep</a>.
+    </div> -->
+  </body>
+</html>
